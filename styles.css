@@ -1,0 +1,33 @@
+    * {
+        font-family: 'Courier New', Courier, monospace;
+        color: rgb(19, 72, 70);
+    }
+
+    .home {
+        text-align: center;
+    }
+
+    .home h1 span {
+        color: mediumseagreen;
+    }
+
+    .home ul {
+        display: inline-block;
+        padding: 0;
+        margin: 0;
+        list-style: none;
+        font-size: 22px;
+        text-align: center;
+    }
+
+    .home li {
+        margin: 25px auto;
+        border-bottom: 1px solid rgb(19, 72, 70);
+    }
+
+    .home a:link,
+    a:visited {
+        text-decoration: none;
+        color: rgb(33, 41, 41);
+        font-weight: bold;
+    }
